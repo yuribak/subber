@@ -42,8 +42,6 @@ class SubDB(object):
                 fout.write(subs.content)
         return subs.status_code == 200
 
-#test_file = '/home/yurib/video/12.Monkeys.S01E03.HDTV.x264-KILLERS.mp4'
-
 if __name__ == '__main__':
     subber = SubDB()
     for root, folders, files in os.walk(root_dir):
